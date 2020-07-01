@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>quiz 2 </title>
+<title>Month </title>
 <link rel="stylesheet" href="style.css">
 <script src="https://use.fontawesome.com/05d5bf2795.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
 <style>
 
+.navbar_icons li {
+  padding: 4px 10px;
+}
 .main	{
 	color: black;
 }
@@ -16,24 +19,24 @@
 .box1 {position : relative;
 	left: 350px;
 	top: 50px;
-         width: 200px;
-         height: 500px;
-         border: 1px solid #000000;
-	font-size: 30px;
-	color: #000000}
+         width: 180px;
+         height: 550px;
+
+	font-size: 20px;
+	color: #FFFFFF}
 
 .box1 {background-color: #443735;}
 
 .menu1 {
   display: block;
   list-style: none;
-  padding-left: 2px;
-
+  padding-left: 4px;
+font-family: 나눔스퀘어_ac light;
 }
 
 .menu1 li:hover {
   background-color: #957862;
-  border-radius: 2px;
+  border-radius: 3px;
 
 }
 
@@ -41,7 +44,14 @@
   padding: 4px 10px;
 	margin: px;
 		font-size: 15px;
+text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .box1 { flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+}}
 
 	.box1 {
 		color: #000000}
@@ -59,9 +69,11 @@ margin-top: 20px;
 
 		.explain{position : relative;
 left: 700px;
-		 top: -650px;
+		 top: -720px;
 		 color:black;
 		 border: 1px solid #ffffff;
+     font-family: 나눔스퀘어_ac light;
+     font-size: 20px;
 		}
 
 		.explain1{position : relative;
@@ -70,6 +82,9 @@ left: 700px;
 		 color:black;
 		 border: 1px solid #ffffff;
 		 margin-top: 10px;
+		  margin-bottom: 100px;
+	font-family: 나눔스퀘어_ac light;
+			font-size: 20px;
 		}
 
 .imagelogo1 {
@@ -100,6 +115,13 @@ footer {	position : relative;
 	color: #000000;
 }
 
+.fot {
+  margin-top: -500px;
+}
+
+.navbar_icons li {
+  padding: 4px 10px;
+}
 
 </style>
 
@@ -107,7 +129,8 @@ footer {	position : relative;
 	<header>
 <div class="mainlogo">
 	<div class="main">
-<a href="C:\Users\N\Desktop\month1\css0609\0610\index.html"> MONTH</a>
+		<a href="index.html">
+<img src="image11/4x/300.jpg" width="200" height="100" alt="">
 </div>
 </div>
 
@@ -122,8 +145,8 @@ footer {	position : relative;
 			<li><a href="index.html">홈</a></li>
 			<li><a href="0608-1.html">회사소개</a></li>
 			<li><a href="0608-3.html">도시정보</a></li>
-			<li><a href="#hotel">호텔정보</a></li>
-			<li><a href="#food">식당정보</a></li>
+			<li><a href="0608-4.html">호텔정보</a></li>
+			<li><a href="0608-6.html">식당정보</a></li>
 			    </ul>
 
 			    <ul class="navbar_icons">
@@ -143,10 +166,10 @@ footer {	position : relative;
 
 
 <li><a href="0608-4.html"><h2>호텔정보</h2></a></li>
-<li><a href="#hotel">객실정보</a></li>
-<li><a href="#hotel">혜택</a></li>
+<li><a href="0608-5.html">객실정보</a></li>
 
-<li><a href="#hotel"><h2>식당정보</h2></a></li>
+
+<li><a href="#0608-6.html"><h2>식당정보</h2></a></li>
 
 </div>
 </ul>
@@ -160,11 +183,15 @@ footer {	position : relative;
 
 <div class="explain1">
 	먼스(MONTH)는 1990년 한국 최초로 잡지를 통해 여행지를 소개하는 회사였습니다.<br>
+	<br><br>
 인터넷이 존재하지 않을 당시부터 직접 회사직원이 명소를 직접 찾아가 여행지를 확인<br>
+<br><br>
 하는 작업을 전통적으로 해왔으며 사람들은 잡지를 통해 관광명소를 추천을 받았습니다.<br>
+<br><br>
 2018년 신문을 보는 사람들이 점점 줄어드는 흐름에 창립자는  IT 산업을 통해 회사를<br>
-이어나갔습니다. 매월 잡지가 다른 컨셉으로 출판되는 것처럼 먼스(MONTH)는 매월<br>
-바뀌는 여행지와 컨셉을 사이트 변화로 만들어냈습니다.
+<br><br>
+이어나갔습니다. 매월 잡지가 다른 컨셉으로 출판되는 것처럼 먼스(MONTH)는 매월<br><br><br>
+바뀌는 여행지와 컨셉을 사이트 변화로 만들어냈습니다.<br><br>
 </div>
 <div class="imagelogo1">
 	<img src="image11/1x/111.jpg" width="400" height="200" alt="">
@@ -173,17 +200,12 @@ footer {	position : relative;
 <div class="imagelogo1">
 	<img src="image11/4x/100.jpg" width="400" height="1100" alt="">
 </div>
+<div class="fot">
+<tr>
 
-<footer>
-
-    <br>
-   다음달 여행 정보를 미리 알고 싶다면?<br>
-   <div id="box1">
-	</div>
-	<div id="box2">
-   MONTH
+	<td colspan="13">
+		<img src="images/30.jpg" width="1920" height="494" alt=""></td>
+</tr>
 </div>
- </footer>
-
 </body>
 </html>

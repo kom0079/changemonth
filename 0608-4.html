@@ -2,29 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>quiz 2 </title>
+<title>Hotel </title>
 <link rel="stylesheet" href="style.css">
 <script src="https://use.fontawesome.com/05d5bf2795.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
 <style>
+.navbar_icons li {
+  padding: 4px 12px;
+}
 .box1 {position : relative;
 	left: 350px;
 	top: 50px;
-         width: 200px;
-         height: 500px;
-         border: 0px solid #000000;
-	font-size: 30px;
-	color: #000000}
+				 width: 180px;
+				 height: 550px;
+
+	font-size: 20px;
+	color: #FFFFFF}
 
 .box1 {background-color: #443735;}
 
 .menu1 {
   display: block;
   list-style: none;
-  padding-left: 2px;
-
+  padding-left: 4px;
+font-family: 나눔스퀘어_ac light;
 }
+
+@media screen and (min-width: 768px) {
+  .box1 { flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+}}
 
 .menu1 li:hover {
   background-color: #957862;
@@ -36,63 +45,61 @@
   padding: 4px 10px;
 	margin: px;
 		font-size: 15px;
+
 }
 
 	.box1 {
 		color: #000000}
 
-	.box2 {position : relative;
-		left: 550px;
-		top: -10px;
-	         width: 200px;
-	         height: 200px;
-margin-top: -10px;
-border: 0px #443735;
 
-		font-size: 30px;
-		color: #443735}
 
-		.explain{position : relative;
+    .explain{position : relative;
 left: 700px;
-		 top: -650px;
+		 top: -530px;
 		 color:black;
 		 border: 1px solid #ffffff;
+font-family: 나눔스퀘어_ac light;
+		 font-size: 20px;
 		}
 
 		.explain1{position : relative;
 left: 350px;
 		 top: -650px;
 		 color:black;
-		 border: 1px solid #ffffff;
-		 margin-top: 10px;
+		 border: 0px solid #ffffff;
+		 margin-top: 200px;
 		 font-size: 25px;
 		 text-align: center;
+		 font-family: 나눔스퀘어_ac bold;
 		}
 
 		.explain2{position : relative;
 left: 900px;
 		 top: -650px;
 		 color:black;
-		 border: 1px solid #ffffff;
-		 margin-top: 30px;
+		 border: 0px solid #ffffff;
+		 margin-top: 100px;
 		 font-size: 20px;
 		 text-align: left;
+		font-family: 나눔스퀘어_ac light;
 		}
 
 		.explain3{position : relative;
 left: 350px;
 		 top: -650px;
 		 color:black;
-		 border: 1px solid #ffffff;
+		 border: 0px solid #ffffff;
 		 margin-top: 400px;
 		 font-size: 30px;
 		 text-align: center;
+		font-family: 나눔스퀘어_ac bold;
 		}
 
 .place {position : relative;
-left: 300px;
+left: 350px;
  top: -450px;
 text-align: center;
+font-family: 나눔스퀘어_ac light;
 
 
 }
@@ -135,6 +142,11 @@ li {
 	text-align: center;
 }
 
+h3 {
+margin-top: 30px;
+font-family: 나눔스퀘어_ac bold;
+}
+
 
 
 </style>
@@ -142,8 +154,8 @@ li {
 <body>
 	<header>
 <div class="mainlogo">
-	<div class="main">
-<a href="C:\Users\N\Desktop\month1\css0609\0610\index.html"> MONTH</a>
+	<a href="index.html">
+<img src="image11/4x/300.jpg" width="200" height="100" alt="">
 </div>
 </div>
 
@@ -158,7 +170,7 @@ li {
 			<li><a href="index.html">홈</a></li>
 			<li><a href="0608-1.html">회사소개</a></li>
 			<li><a href="0608-3.html">도시정보</a></li>
-			<li><a href="#hotel">호텔정보</a></li>
+			<li><a href="0608-4.html">호텔정보</a></li>
 			<li><a href="#food">식당정보</a></li>
 			    </ul>
 
@@ -179,18 +191,17 @@ li {
 
 
 <li><a href="0608-4.html"><h2>호텔정보</h2></a></li>
-<li><a href="#hotel">객실정보</a></li>
-<li><a href="#hotel">혜택</a></li>
+<li><a href="0608-5.html">객실정보</a></li>
 
-<li><a href="#hotel"><h2>식당정보</h2></a></li>
+
+<li><a href="0608-6.html"><h2>식당정보</h2></a></li>
 
 </div>
 </ul>
 
-<div class="box2">
-</div>
+
 <div class="explain">
-	홈 > 회사소개 > HISTORY
+	홈 > 호텔정보
 </div>
 <div class="explain1">
 <br />생기 넘치는 각종 관광지와 시설을 다양하게 갖춘 마리나 베이 샌즈
@@ -201,19 +212,23 @@ li {
 </div>
 
 <div class="explain2">
-	싱가포르를 다른 도시와 차별화할 수 있을 만큼 독특한 정체성이 느껴지는,<br />
-	<br />
-	시대를 초월한 종합 랜드마크 입니다. 마리나 베이 바닷가에 자리잡은 마리나<br />
-	<br />
-	베이 샌즈는 옥상층에 아주 특별한 하늘 공원을 설치한 폭포수 형태의 호텔<br />
-	<br />
-	타워 3개로 이루어져 있으며, 구내에 '떠 있는' 수정 궁전과 연꽃을 본따 만든<br />
-	<br />
-	박물관, 국제적인 명품 브랜드 및 최신 인기 상품 매장, 유명 셰프 레스토랑,<br />
-	<br />
-	볼거리가 끝없이 이어지는 극장과 세계에서 가장 핫한 나이트 클럽, <br />
-	<br />
-	라스베이거스 스타일의 카지노 등이 마련되어 있습니다.
+	싱가포르를 다른 도시와 차별화할 수 있을 만큼 독특한 정체성이 느껴지는, 시대를 초월한<br />
+ <br /><br />
+	종합 랜드마크 입니다. 마리나 베이 바닷가에 자리잡은 마리나베이 샌즈는 옥상층에 아주<br />
+ <br /><br />
+
+	특별한 하늘 공원을 설치한 폭포수 형태의 호텔 타워 3개로 이루어져 있으며, 구내에 '떠 있는'<br />
+ <br /><br />
+
+
+	수정 궁전과 연꽃을 본따 만든 박물관, 국제적인 명품 브랜드 및 최신 인기 상품 매장, 유명 셰프<br />
+ <br /><br />
+
+	 레스토랑, 볼거리가 끝없이 이어지는 극장과 세계에서 가장 핫한 나이트 클럽, 라스베이거스<br />
+ <br /><br />
+
+
+	스타일의 카지노 등이 마련되어 있습니다.
 </div>
 
 <div class="explain3">
@@ -222,47 +237,46 @@ li {
 
 
 <div class="place">
+	<details>
+		<summary><h2>자세하게 알아보기</h2></summary>
+
 <li><img src="images/4x/01.jpg" width="400" height="400"alt=""><br />
-	<h2>FUTURE WORLD(퓨처 월드)</h2><br />
+	<h3>FUTURE WORLD(퓨처 월드)</h3><br />
 
  아름다운 크리스탈 우주를 탐험하며 멋진 사진을 남겨보세요.</li>
 
 <li><img src="images/4x/02.jpg" width="400" height="400"alt=""><br />
-<h2>	선라이즈 요가</h2><br />
+<h3>	선라이즈 요가</h3><br />
 	싱가포르의 파노라믹 시티 뷰를 감상하며 요가를 즐기고<br />
 	 멋진 요가 자세로 특별한 사진을 찍어보세요.<br />
 <li><img src="images/4x/03.jpg" width="400" height="400"alt=""><br />
-	<h2>아트 패스</h2><br />
+	<h3>아트 패스</h3><br />
 마리나 베이 샌즈 아트 패스는 세계적으로 유명한 아티스트 8명이 제작한<br />
  11개의 대형 아트 설치물로 이루어져 있습니다.<br />
 </li>
 <li><img src="images/4x/04.jpg" width="400" height="400"alt=""><br />
-	<h2>인피니티풀</h2><br />
+	<h3>인피니티풀</h3><br />
 인피니티풀은 오전 6시에 문을 엽니다.<br />
 사람들이 적은 조용한 이른 아침 고층빌딩 사이로 떠오르는 태양을 감상하세요.<br />
 
 
 </li>
 <li><img src="images/4x/05.jpg" width="400" height="400"alt=""><br />
-	<h2>더 샵스</h2><br />
+	<h3>더 샵스</h3><br />
 마리나 베이 샌즈 쇼핑몰 더 샵스에서 사진을 찍어보세요.<br />
 근사한 유리창으로 들어오는 자연광이 통로와 인테리어를 환하게 비춥니다.<br />
 </li>
 <li><img src="images/4x/06.jpg" width="400" height="400"alt=""><br />
-	<h2>스펙트라- 빛과 물의 쇼</h2><br />
+	<h3>스펙트라- 빛과 물의 쇼</h3><br />
 루이 비통 아일랜드 메종 밖의 마리나 베이에서 펼쳐지는 화려한 쇼를 감상하세요.<br />
 </li>
+</details>
 </div>
-<footer>
+<tr>
 
-    <br>
-   다음달 여행 정보를 미리 알고 싶다면?<br>
-   <div id="box1">
-	</div>
-	<div id="box2">
-   MONTH
-</div>
- </footer>
+	<td colspan="13">
+		<img src="images/30.jpg" width="1920" height="494" alt=""></td>
+</tr>
 
 </body>
 </html>

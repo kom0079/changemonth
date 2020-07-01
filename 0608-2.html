@@ -11,11 +11,11 @@
 .box1 {position : relative;
 	left: 350px;
 	top: 50px;
-         width: 200px;
-         height: 500px;
-         border: 0px solid #000000;
-	font-size: 30px;
-	color: #000000}
+         width: 180px;
+         height: 550px;
+
+	font-size: 20px;
+	color: #FFFFFF}
 
 .box1 {background-color: #443735;}
 
@@ -24,6 +24,18 @@
   list-style: none;
   padding-left: 2px;
 
+}
+
+.navbar_icons li {
+  padding: 8px 0px;
+}
+
+
+.menu1 {
+  display: block;
+  list-style: none;
+  padding-left: 4px;
+font-family: 나눔스퀘어_ac light;
 }
 
 .menu1 li:hover {
@@ -36,7 +48,14 @@
   padding: 4px 10px;
 	margin: px;
 		font-size: 15px;
+text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .box1 { flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+}}
 
 	.box1 {
 		color: #000000}
@@ -54,9 +73,11 @@ margin-top: 20px;
 
 		.explain{position : relative;
 left: 700px;
-		 top: -650px;
+		 top: -720px;
 		 color:black;
 		 border: 1px solid #ffffff;
+		font-family: 나눔스퀘어_ac light;
+		 font-size: 20px;
 		}
 
 		.explain1{position : relative;
@@ -65,6 +86,13 @@ left: 700px;
 		 color:black;
 		 border: 1px solid #ffffff;
 		 margin-top: 30px;
+		 margin-bottom: 200px;
+		 font-family: 나눔스퀘어_ac light;
+			  font-size: 20px;
+		}
+
+		.navbar_icons li {
+		  padding: 4px 10px;
 		}
 
 		.explain2{position : relative;
@@ -73,6 +101,8 @@ left: 800px;
 		 color:black;
 		 border: 1px solid #ffffff;
 		 margin-top: 30px;
+		font-family: 나눔스퀘어_ac light;
+				 font-size: 20px;
 		}
 
 .imagelogo1 {
@@ -82,6 +112,7 @@ left: 850px;
 	 color:black;
 	 border: 1px solid #ffffff;
 	 margin-top: 30px;
+	 margin-bottom: 50px;
 }
 
 .imagelogo2 {
@@ -91,6 +122,7 @@ left: 850px;
 	 color:black;
 	 border: 1px solid #ffffff;
 	 margin-top: 70px;
+	  margin-bottom: 50px;
 }
 
 footer {	position : relative;
@@ -107,13 +139,18 @@ footer {	position : relative;
 	font-size: 20px;
 	color: #FFFFFF;}
 
+.fot {
+	margin-top: -500px;
+}
+
 </style>
 
 <body>
 	<header>
 <div class="mainlogo">
 	<div class="main">
-<a href="C:\Users\N\Desktop\month1\css0609\0610\index.html"> MONTH</a>
+		<a href="index.html">
+<img src="image11/4x/300.jpg" width="200" height="100" alt="">
 </div>
 </div>
 
@@ -128,8 +165,8 @@ footer {	position : relative;
 			<li><a href="index.html">홈</a></li>
 			<li><a href="0608-1.html">회사소개</a></li>
 			<li><a href="0608-3.html">도시정보</a></li>
-			<li><a href="#hotel">호텔정보</a></li>
-			<li><a href="#food">식당정보</a></li>
+			<li><a href="0608-4.html">호텔정보</a></li>
+			<li><a href="0608-6.html">식당정보</a></li>
 			    </ul>
 
 			    <ul class="navbar_icons">
@@ -149,10 +186,10 @@ footer {	position : relative;
 
 
 	<li><a href="0608-4.html"><h2>호텔정보</h2></a></li>
-	<li><a href="#hotel">객실정보</a></li>
-	<li><a href="#hotel">혜택</a></li>
+	<li><a href="0608-5.html">객실정보</a></li>
 
-	<li><a href="#hotel"><h2>식당정보</h2></a></li>
+
+	<li><a href="0608-6.html"><h2>식당정보</h2></a></li>
 
 	</div>
 	</ul>
@@ -169,9 +206,13 @@ footer {	position : relative;
 
 <div class="explain1">
 	SNS에 보면 여러가지 명소들이 올라온다. 나도 이번에 여행을 가려하는데 어디를 가야할지 모르겠다. <br>
+	<br>	<br>
 	미국은 주만 50개이며 도시는 총 19.429개 이다. 다들 가는 곳을 가본다면 반은 관광객들만 북적거려 <br>
+	<br>	<br>
 	여행을 할 수 없고 반은 광고 목적으로 소개된 곳으로 돈만 쓰는 여행이 될 것 같다. 믿을 수 있는 곳, <br>
+	<br>	<br>
 	거짓 없는 곳, 직접 다녀와 현지인에게 직접 물어본 곳을 다녀오고 싶은 당신 을 도와주기 위해 제작한<br>
+	<br>	<br>
 	사이트 입니다.
 </div>
 
@@ -181,22 +222,19 @@ footer {	position : relative;
 
 <div class="explain2">
 	하나의 명소를 집중적으로 조사하여 도시 한 곳 한 곳이 최고의 여행이 되는 <br>
+	<br>	<br>
 	법을 고안 해볼려고 합니다. 사진을 중점적으로 하여 확실한 전달력과 간단한 <br>
+	<br>	<br>
 	레이아웃을 통해 빠르게 찾아볼 수 있는 공간을 만들고자 합니다.
 
 </div>
 
+<div class="fot">
+<tr>
 
-<footer>
-
-    <br>
-   다음달 여행 정보를 미리 알고 싶다면?<br>
-   <div id="box1">
-	</div>
-	<div id="box2">
-   MONTH
+	<td colspan="13">
+		<img src="images/30.jpg" width="1920" height="494" alt=""></td>
+</tr>
 </div>
- </footer>
-
 </body>
 </html>
